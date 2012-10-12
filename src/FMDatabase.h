@@ -59,7 +59,7 @@
     BOOL                _inTransaction;
     int                 _busyRetryTimeout;
     
-    NSMutableDictionary *_cachedStatements;
+//    NSMutableDictionary *_cachedStatements;
     NSMutableSet        *_openResultSets;
     NSMutableSet        *_openFunctions;
 
